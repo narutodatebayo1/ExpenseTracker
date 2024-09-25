@@ -1,0 +1,51 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.inputDiv {
+    width: 100%;
+}
+
+.expenseTypeDropDownList {
+    width: calc(100% + 2px);
+    font-size: 1.2rem;
+    padding: 1rem;
+    color: black;
+}
+
+.expenseTypeDropDownList > option { color: black; }
+
+.expenseTypeDropDownList:has([value=""]:checked) {
+    color: grey;
+}
+
+.inputDiv > input {
+    width: calc(100% - 2rem - 2px);
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+.errorMessage {
+    margin: 0;
+    color: red;
+}
+
+.submitButton {
+    font-size: 1.5rem;
+    padding: 0.7rem 2rem;
+    background-color: #4B0082;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.submitButton:hover {
+    background-color: #2B004A;
+}
+
+.submitButton:active {
+    background-color: #6B00BA;
+}

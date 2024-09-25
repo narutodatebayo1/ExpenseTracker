@@ -1,0 +1,24 @@
+.back-navbar {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 0 2px grey;
+
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.back-navbar > .icon-div {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

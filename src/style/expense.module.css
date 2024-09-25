@@ -1,0 +1,174 @@
+.downloadButtonDiv {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    margin-bottom: 1rem;
+}
+
+.downloadButton {
+    background-color: #4B0082;
+    color: white;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 0.75rem 1.25rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.downloadButton:hover {
+    background-color: #2B004A;
+}
+
+.downloadButton:active {
+    background-color: #6B00BA;
+}
+
+.expandableCardList {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.expandableCard {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.expandableCardTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 1.5rem;
+    font-weight: 700;
+    user-select: none;
+    cursor: pointer;
+}
+
+.displayBlock {
+    display: block;
+}
+
+.displayNone {
+    display: none;
+}
+
+.expenseCardList {
+    padding: 1rem;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.expenseCard {
+    display: flex;
+    gap: 1rem;
+}
+
+.expenseCardIconDiv {
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+    border: solid 4px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.expenseCardDetail {
+    flex-grow: 1;
+}
+
+.expenseCardHeader {
+    flex-grow: 1;
+    position: relative;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.expenseCardHeader p {
+    margin: 0;
+}
+
+.expenseCardTitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.ellipsisIconDiv {
+    width: fit-content;
+    height: fit-content;
+    padding: 0.5rem;
+
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.editDeletePopup {
+    position: absolute;
+    top: 1.5rem;
+    right: 0rem;
+
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    z-index: 2;
+}
+
+.editDeletePopup > div {
+    width: 6rem;
+    height: 2rem;
+    user-select: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editDeletePopup > div:hover {
+    background-color: #4B0082;
+    color: white;
+}
+
+.editDeletePopup > div:active {
+    background-color: #2B004A;
+}
+
+.editDeletePopup > div:nth-child(1) {
+    border-radius: 0.25rem 0.25rem 0 0;
+}
+
+.editDeletePopup > div:nth-child(2) {
+    border-radius: 0 0 0.25rem 0.25rem;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.noExpenseText {
+    text-align: center;
+}

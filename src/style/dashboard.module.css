@@ -1,0 +1,294 @@
+.dashboardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.greeting {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.bell {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pieChartDiv {
+    margin-left: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.pieChartDiv > div {
+    width: 50%;
+    aspect-ratio: 1 / 1;
+    /* background-color: green; */
+}
+
+.percentageList {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.percentage {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.colorDiv {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 0.25rem;
+}
+
+.separateLine {
+    height: 2px;
+    margin-top: 1rem;
+    margin-bottom: -1rem;
+    background-color: #C0C0C0;
+}
+
+.listHeader {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.listHeaderTotal {
+    width: 60%;
+}
+
+.listHeaderTotal > p {
+    margin: 0;
+    text-align: center;
+}
+
+.listHeaderTotalTitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.listHeaderTotalAmount {
+    font-size: 0.75rem;
+}
+
+.listHeader > .link {
+    width: 40%;
+    background-color: #4B0082;
+    color: white;
+    border-radius: 0.5rem;
+
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.75rem 0;
+}
+
+.listHeader > .link:hover {
+    background-color: #2B004A;
+}
+
+.listHeader > .link:active {
+    background-color: #6B00BA;
+}
+
+.expenseList {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.expenseType {
+    box-shadow: 1px 1px 1px #E6E6E6;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.expenseTypeIconDiv {
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+    border: solid 4px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.expenseTypeTitle, .expenseTypeAmount {
+    margin: 0;
+}
+
+.expenseTypeTitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.noExpenseDiv {
+    text-align: center;
+}
+
+
+
+
+
+
+.expenseTypeHeader {
+    display: flex;
+    gap: 1rem;
+}
+
+.noBudgetDiv {
+    font-size: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.setBudgetButton {
+    color: white;
+    text-decoration: none;
+    background-color: #4B0082;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+.budgetList {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.budget {
+    padding: 0.5rem 1rem;
+    box-shadow: 1px 1px 1px #E6E6E6;
+    border-radius: 0.5rem;
+}
+
+.budgetInformation {
+    display: flex;
+    gap: 1rem;
+}
+
+.budget p {
+    margin: 0;
+}
+
+.expenseTypeTitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.totalBudget {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.budgetText {
+    flex-grow: 1;
+    position: relative;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.expenseTypeIconDiv {
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+    border: solid 4px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.budgetProgressBar {
+    margin: 0.5rem 0;
+}
+
+.track {
+    /* background-color: #E0E0E0; */
+    height: 0.5rem;
+    border-radius: 0.25rem;
+}
+
+.bar {
+    height: 100%;
+    border-radius: 0.25rem;
+    background-color: red;
+}
+
+.budgetProgressBarDetail {
+    font-size: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .noBudgetDiv {
+    text-align: center;
+}
+ */
+
+
+.dashboardHeaderNoData {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.coinImageDiv {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .callToActionButton {
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    background-color: #4B0082;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 1rem 0;
+    border-radius: 1rem;
+    cursor: pointer;
+ }
+
+ .callToActionButton:hover {
+    background-color: #2B004A;
+ }
+
+ .callToActionButton:active {
+    background-color: #6B00BA;
+ }

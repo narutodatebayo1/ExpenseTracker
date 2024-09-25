@@ -1,0 +1,174 @@
+.budgetDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    margin-bottom: 1rem;
+
+}
+
+.limitDiv {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.limitDiv > div:nth-child(1) {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.limitDiv > div:nth-child(2) {
+    font-size: 0.75rem;
+}
+
+.setBudgetButton {
+    background-color: #4B0082;
+    color: white;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 0.75rem 1.25rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.setBudgetButton:hover {
+    background-color: #2B004A;
+}
+
+.setBudgetButton:active {
+    background-color: #6B00BA;
+}
+
+.chartDiv {
+    margin-bottom: 1rem;
+}
+
+.addBudgetButton {
+    background-color: #4B0082;
+    color: white;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    /* font-size: 1.25rem;
+    font-weight: 700; */
+    text-align: center;
+    padding: 0.75rem 1.25rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.addBudgetButton:hover {
+    background-color: #2B004A;
+}
+
+.addBudgetButton:active {
+    background-color: #6B00BA;
+}
+
+.expenseList {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.expenseTypeDetailExpense {
+    box-shadow: 1px 1px 1px #E6E6E6;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    color: black;
+    text-decoration: none;
+
+    cursor: default;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.cardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.priceDiv {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.descriptionDiv {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.dateDiv {
+    font-size: 0.75rem;
+    color: grey;
+}
+
+.ellipsisIconDiv {
+    width: fit-content;
+    height: fit-content;
+    padding: 0.5rem;
+
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.editDeletePopup {
+    position: absolute;
+    top: 1.5rem;
+    right: 0rem;
+
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    z-index: 2;
+}
+
+.editDeletePopup > div {
+    width: 6rem;
+    height: 2rem;
+    user-select: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editDeletePopup > div:hover {
+    background-color: #4B0082;
+    color: white;
+}
+
+.editDeletePopup > div:active {
+    background-color: #2B004A;
+}
+
+.editDeletePopup > div:nth-child(1) {
+    border-radius: 0.25rem 0.25rem 0 0;
+}
+
+.editDeletePopup > div:nth-child(2) {
+    border-radius: 0 0 0.25rem 0.25rem;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}

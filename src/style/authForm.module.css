@@ -1,0 +1,37 @@
+.form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.inputBox {
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 17rem;
+}
+
+.errorMessage {
+    margin: 0;
+    color: red;
+}
+
+.submitButton {
+    outline: none;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #4B0082;
+    padding: 0.7rem 2rem;
+    cursor: pointer;
+}
+
+.submitButton:hover {
+    background-color: #2B004A;
+}
+
+.submitButton:active {
+    background-color: #6B00BA;
+}

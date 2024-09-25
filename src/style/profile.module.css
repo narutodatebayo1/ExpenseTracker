@@ -1,0 +1,83 @@
+.profile {
+    padding: 1.5rem;
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+    margin: -1rem;
+    margin-bottom: 2rem;
+    background: linear-gradient(135deg, #4B0082, #7F00FF);
+    /* background-color: #4B0082; */
+    color: white;
+    border-radius: 0 0 2.5rem 2.5rem;
+    box-shadow: 0 0 10px black;
+}
+
+.profileIconDiv {
+    width: 4rem;
+    height: 4rem;
+    font-size: 3rem;
+    font-weight: 700;
+    border-radius: 50%;
+    border: solid;
+    /* border-width: 0.5rem; */
+    /* background-color: grey; */
+    /* color: black; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileNameDiv {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.profileNameDiv > p {
+    margin: 0;
+}
+
+.profileSubPageList {
+    margin-top: 1rem;
+}
+
+.profileSubPage {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem;
+    background-color: white;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.profileSubPage > div {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+}
+
+.profileSubPageList > .profileSubPage:hover {
+    color: white;
+    background-color: #4B0082;
+}
+
+.profileSubPageList > .profileSubPage:active {
+    color: white;
+    background-color: #2B004A;
+}
+
+.profileSubPageList > hr {
+    width: 100%;
+    height: 1px;
+    background-color: #4B0082;
+    border: none;
+    margin: 0;
+}
